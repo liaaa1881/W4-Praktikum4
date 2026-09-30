@@ -14,7 +14,7 @@
         }
 
         .container {
-            margin-top: 30px;
+            margin-top: 20px;
         }
 
         .table-container {
@@ -30,8 +30,8 @@
         }
 
         table thead th {
-            background-color: #343a40;
-            color: white;
+            background-color: #343a40 !important;
+            color: white !important;
         }
 
         .form-container {
@@ -46,9 +46,20 @@
 </head>
 <body>
 
+    <!-- Header / Navbar Atas -->
+    <div class="bg-dark text-white py-3 mb-4 shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h4 class="m-0">Aplikasi CRUD Produk</h4>
+            <div>
+                <a href="index.html" class="btn btn-light btn-sm fw-bold">Menu Produk</a>
+                <a href="transaksi.html" class="btn btn-outline-light btn-sm">Menu Transaksi</a>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="table-container">
-            <h1>Daftar Produk - P7_079 (Aulia)</h1>
+            <h1 class="mb-4">Daftar Produk - P7_079 (Aulia)</h1>
             <button id="addDataBtn" class="btn btn-primary mb-3">+ Add Data</button>
             <table id="product-table" class="table table-bordered table-hover">
                 <thead>
